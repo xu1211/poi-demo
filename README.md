@@ -26,8 +26,14 @@
    >src/main/java/com/example/poi/poidemo/controller/ExcelController.java
 
 # 其他poi
+基本都是封装了apache.poi，使用简单，但对格式操作有局限
 
 ## easypoi
 >http://doc.wupaas.com/docs/easypoi/
 
 对apache.poi进行了封装，使用更加简单，但是输出格式有限制。复杂的格式无法实现
+
+## Hutool-poi
+>https://www.hutool.cn/docs/#/poi/概述
+
+## GcExcel
