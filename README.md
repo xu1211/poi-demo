@@ -25,11 +25,27 @@
 2. 将Workbook 写出到文件
    >src/main/java/com/example/poi/poidemo/controller/ExcelController.java
 
+---
+
 # 其他poi
 基本都是封装了apache.poi，使用简单，但对格式操作有局限
 
 ## easypoi
+官方文档：
 >http://doc.wupaas.com/docs/easypoi/
+
+
+支持的场景格式：
+1. 表头+表数据
+   1.  表头固定\
+   创建一个pojo 对应表头，使用@Excel等注解字段 
+   2. 表头不固定\
+      List<ExcelExportEntity> 表头
+      List<Map<String, Object>> 表数据
+
+2. 模板导出\
+指定的单元格 填入 指定的变量
+
 
 对apache.poi进行了封装，使用更加简单，但是输出格式有限制。复杂的格式无法实现
 
