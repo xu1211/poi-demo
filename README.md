@@ -49,6 +49,23 @@
 
 对apache.poi进行了封装，使用更加简单，但是输出格式有限制。复杂的格式无法实现
 
+## 1.导入依赖
+```xml
+<dependency>
+   <groupId>cn.afterturn</groupId>
+   <artifactId>easypoi-spring-boot-starter</artifactId>
+   <version>4.2.0</version>
+</dependency>
+```
+## 2.使用
+
+### 写excel
+- 场景1 ： 表头固定
+- 场景2 ： 表头不固定
+- 场景3 ： 多sheet
+
+
+
 ## Hutool-poi
 >https://www.hutool.cn/docs/#/poi/概述
 
